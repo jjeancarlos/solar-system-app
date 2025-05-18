@@ -1,6 +1,4 @@
-Aqui está a versão atualizada do README com as imagens em tamanho reduzido:
 
-```markdown
 # Solar System & Digital Odometer App
 
 Um aplicativo React Native com Expo que apresenta:
