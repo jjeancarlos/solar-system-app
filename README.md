@@ -56,14 +56,14 @@ SolarSystemApp/
 - Lua orbitando a Terra em velocidade diferente
 - Botão neon para navegação
 
-![Tela do Sistema Solar](https://example.com/solar-system-screen.jpg)
+![Tela do Sistema Solar](assets/solar-system.png)
 
 ### Tela do Odômetro Digital
 - Contador de 5 dígitos no estilo terminal hacker
 - Animação suave entre números
 - Efeitos visuais neon
 
-![Tela do Odômetro](https://example.com/odometer-screen.jpg)
+![Tela do Odômetro](assets/odometer.png)
 
 ### Componente NeonButton
 - Efeito de pulsação contínua
