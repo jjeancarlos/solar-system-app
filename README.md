@@ -1,6 +1,7 @@
 # Solar System & Digital Odometer App
 
 A React Native app with Expo that features:
+
 - A solar system animation with Earth and Moon orbiting
 - A "hacker"-style digital odometer
 - Neon buttons with special effects
@@ -52,6 +53,7 @@ SolarSystemApp/
 ## Main Features
 
 ### Solar System Screen
+
 - Realistic animation of Earth orbiting the Sun
 - Moon orbiting Earth at a different speed
 - Neon button for navigation
@@ -59,6 +61,7 @@ SolarSystemApp/
 <img src="https://github.com/user-attachments/assets/12b34eb5-6bd2-4d10-a153-0afbe5e56466" width="300" alt="Solar System">
 
 ### Digital Odometer Screen
+
 - 5-digit counter in hacker terminal style
 - Smooth number transition animation
 - Neon visual effects
@@ -66,6 +69,7 @@ SolarSystemApp/
 <img src="https://github.com/user-attachments/assets/2821d50c-3278-4218-a821-e94e846cbe26" width="300" alt="Digital Odometer">
 
 ### NeonButton Component
+
 - Continuous pulsing effect
 - Ripple animation on touch
 - Neon glow and shadows
@@ -77,12 +81,18 @@ To change the neon theme colors, modify these colors in the styles:
 
 ```typescript
 const neonColors = {
-  primary: '#0aff9d',
-  shadow: 'rgba(10, 255, 157, 0.7)',
-  ripple: 'rgba(0, 255, 157, 0.5)',
-  text: '#ffffff'
+  primary: "#0aff9d",
+  shadow: "rgba(10, 255, 157, 0.7)",
+  ripple: "rgba(0, 255, 157, 0.5)",
+  text: "#ffffff",
 };
 ```
+
+## Support the Project
+
+If you enjoy this project and would like to support its development, you can buy me a coffee☕:
+
+**BTC Wallet:** `bc1qmt739lup9x4uxlxsl7mh0rwfmedsd92m3rmu2r`
 
 ## License
 
@@ -90,4 +100,4 @@ MIT License
 
 ## Credits
 
-Developed by *Jean Carlos* using React Native and Expo
+Developed by _Jean Carlos_ using React Native and Expo
