@@ -1,43 +1,42 @@
-
 # Solar System & Digital Odometer App
 
-Um aplicativo React Native com Expo que apresenta:
-- Uma animação do sistema solar com Terra e Lua orbitando
-- Um odômetro digital no estilo "hacker"
-- Botões neon com efeitos especiais
-- Navegação entre telas
+A React Native app with Expo that features:
+- A solar system animation with Earth and Moon orbiting
+- A "hacker"-style digital odometer
+- Neon buttons with special effects
+- Navigation between screens
 
-## Pré-requisitos
+## Prerequisites
 
-- Node.js (v16 ou superior)
-- Expo CLI instalado globalmente (`npm install -g expo-cli`)
-- Dispositivo móvel com o app Expo Go ou emulador configurado
+- Node.js (v16 or higher)
+- Expo CLI installed globally (`npm install -g expo-cli`)
+- Mobile device with the Expo Go app or configured emulator
 
-## Instalação
+## Installation
 
-1. Criar um novo app:
+1. Create a new app:
 
 ```shell
 npx create-expo-app -t expo-template-blank-typescript SolarSystemApp
 cd SolarSystemApp
 ```
 
-2. Instalar as dependências:
+2. Install dependencies:
 
 ```shell
 npm install @react-navigation/native @react-navigation/native-stack react-native-reanimated react-native-gesture-handler
 npx expo install react-native-screens react-native-safe-area-context
 ```
 
-## Executando o App
+## Running the App
 
 ```shell
 npx expo start
 ```
 
-Escaneie o QR code com o app Expo Go ou execute em um emulador.
+Scan the QR code with the Expo Go app or run on an emulator.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 SolarSystemApp/
@@ -50,31 +49,31 @@ SolarSystemApp/
 └── package.json
 ```
 
-## Funcionalidades Principais
+## Main Features
 
-### Tela do Sistema Solar
-- Animação realista da Terra orbitando o Sol
-- Lua orbitando a Terra em velocidade diferente
-- Botão neon para navegação
+### Solar System Screen
+- Realistic animation of Earth orbiting the Sun
+- Moon orbiting Earth at a different speed
+- Neon button for navigation
 
-<img src="https://github.com/user-attachments/assets/12b34eb5-6bd2-4d10-a153-0afbe5e56466" width="300" alt="Sistema Solar">
+<img src="https://github.com/user-attachments/assets/12b34eb5-6bd2-4d10-a153-0afbe5e56466" width="300" alt="Solar System">
 
-### Tela do Odômetro Digital
-- Contador de 5 dígitos no estilo terminal hacker
-- Animação suave entre números
-- Efeitos visuais neon
+### Digital Odometer Screen
+- 5-digit counter in hacker terminal style
+- Smooth number transition animation
+- Neon visual effects
 
-<img src="https://github.com/user-attachments/assets/2821d50c-3278-4218-a821-e94e846cbe26" width="300" alt="Odômetro Digital">
+<img src="https://github.com/user-attachments/assets/2821d50c-3278-4218-a821-e94e846cbe26" width="300" alt="Digital Odometer">
 
-### Componente NeonButton
-- Efeito de pulsação contínua
-- Animação de ripple ao toque
-- Brilho neon e sombras
-- Altamente reutilizável
+### NeonButton Component
+- Continuous pulsing effect
+- Ripple animation on touch
+- Neon glow and shadows
+- Highly reusable
 
-## Personalização
+## Customization
 
-Para alterar as cores do tema neon, modifique estas cores nos estilos:
+To change the neon theme colors, modify these colors in the styles:
 
 ```typescript
 const neonColors = {
@@ -85,10 +84,10 @@ const neonColors = {
 };
 ```
 
-## Licença
+## License
 
 MIT License
 
-## Créditos
+## Credits
 
-Desenvolvido por *Jean Carlos* usando React Native e Expo
+Developed by *Jean Carlos* using React Native and Expo
